@@ -18,9 +18,13 @@ backend - django
 # HOME - page 
 
 1.Sliding images about surya facilites 
+
 2.content about Surya facilites
+
 3.Services of Surya Facilites 
+
 4. Video regarding services and works 
+
 5.FAQ page to know about Surya facilites
 
 # CLIENT - page
@@ -30,21 +34,28 @@ backend - django
 # SERVICES - page 
 
 1.Content of cleaning facilites and about cleaning information
+
 2.Content of bouncers services and about bouncers information 
+
 3. Both cleaning and bounces services clients
 
 # ABOUT US - page 
 
 1.chairman's speach and about chairman 
+
 information about SIMS hoapital, hotels, cements, civil works,SRM auto tech
 
 # GALLERY - page
 
 1. work of Surya facilites 
+
 2. our vision, our mission, our objective 
+
 3.information of CEO,SECURITY MANAGER, HR.
 
 NOTE:
 1.all the text are connected in backend 
+
 2.contact us page is also connected in backend 
+
 3. all page contains a navagition bar at the bottom and a map of location of main head office 
