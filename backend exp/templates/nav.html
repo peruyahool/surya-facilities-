@@ -1,0 +1,163 @@
+<html>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+        <title>Surya Facilities</title>
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <div class="w-20 h-20 relative inline-flex items-center justify-center rounded-xl overflow-hidden ">
+            <img class="rounded-xl" src="https://cdn.discordapp.com/attachments/807673041667489853/1101850571717226506/image.png" alt="Profile Picture">
+          </div>
+            <span class="ml-3 text-xl" id="title"></span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-white" href="/">Home</a>
+          <a class="mr-5 hover:text-white" href="/client">Client</a>
+          <a class="mr-5 hover:text-white" href="/services">Service</a>
+          <a class="mr-5 hover:text-white" href="/about_us">About us</a>
+          <a class="mr-5 hover:text-white" href="/gallery">Gallery</a>
+          </nav>
+        <a href="/contact_us"><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Contact us
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+        </button></a>
+        </div>
+    </header>
+    <body>
+        {% block content %}
+        {% endblock %}
+
+        <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+              <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                  <div class="w-20 h-20 relative inline-flex items-center justify-center rounded-xl overflow-fixed">
+                    <img class="rounded-xl" src="https://cdn.discordapp.com/attachments/807673041667489853/1101850571717226506/image.png" alt="Profile Picture">
+                  </div>
+                  <span class="ml-3 text-xl">SURYA FACILITIES</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500 text-2xl">World famous company</p>
+                <p class="mt-2 text-sm text-gray-500 text-l">Surya Facilities is a leading security services company that offers a wide range of security solutions to businesses, organizations, and individuals. With years of experience in the security industry, we have developed a reputation for providing reliable and effective security services that meet the needs of our customers</p>
+              </div>
+              <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">QUICK LINK</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800" href="home.html">HOME</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800" href="services.html">SERVICE</a>
+                    </li>                    
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800" href="client.html">CLIENT</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800" href="about_us.html">ABOUT US</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800" href="gallery.html">GALLERY</a>
+                    </li>
+                  </nav>
+                </div>
+                <!--<div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ABOUT US</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">GALLERY</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">OUR WORK</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">DUMMY</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">DUMMY</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PRICING</h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">STARTER</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">PRO</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">BUSINESS</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">FULL-TIME</a>
+                    </li>
+                  </nav>
+                </div>-->
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.747916485214!2d80.20802431054875!3d13.051711313063933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266ea1ca2a5c7%3A0xadba0dd3e246ffce!2sSRM%20Vadapalani%20Auditorium!5e0!3m2!1sen!2sin!4v1682789587150!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">CONTACT US PH NO.23423423423</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">EMAIL ID: suryafacilities@outlook.com</a>
+                    </li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="bg-gray-100">
+              <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 SURYA FACILITIES —
+                  <a href="" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@suryafacilities</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                  <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+      var i1 = 0;
+      var txt1 = 'SURYA FACILITIES'; // replace with your actual text
+      var speed1 = 100; // adjust typing speed as required
+      
+      function typeWriter() {
+        if (i1 < txt1.length) {
+          document.getElementById("title").innerHTML += txt1.charAt(i1);
+          i1++;
+          setTimeout(typeWriter, speed1);
+        }
+      }
+      
+      // Call the function to start the typing animation
+      typeWriter();
+    </script>
+</html>
