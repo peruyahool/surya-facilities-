@@ -5,7 +5,11 @@ Download django the latest version and make sure you're system has python instal
 
 After downloading the file enter command python manage.py runserver in terminal to run the server then click the server link to enter the server 
 
-To access backend type admin next to that server link 
+To access backend type admin next to that server link
+
+
+<img width="1440" alt="Screen Shot 2023-05-05 at 23 29 26" src="https://user-images.githubusercontent.com/74809747/236534051-0019667e-23f3-4563-98ba-3b256977c378.png">
+
 
 Frontend - html, inline css (https://tailwindcss.com/) - tailwind 
 
